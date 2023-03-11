@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8EAED;
+    color: #464155;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+/* Header  */
+.shapka{
+    background-color: #4277A5;
+}
+.shapka > .container{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: white;
+}
+.shapka h1{
+    margin: 0;
+    padding: 0;
+    font-weight: 550;
+}
+.shapka .search{
+    background-color: #2C4869;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+.shapka .search img{
+    width: auto;
+    height: 80%;
+}
+.shapka .search input{
+    background-color: #2C4869;
+    border: none;
+}
+.main{
+    margin-top: 20px;
+}
+.main > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* Left side of main 464155 */
+.main .left{
+    width: 15%;
+}
+.main .left ul{
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+.main .left li{
+    margin-bottom: 20px;
+}
+.main .left li a{
+    text-decoration: none;
+    color: #464155;
+}
+
+
+
+
+/* center of main  */
+.main .center{
+    width: 28%;
+}
+.main .center .top{
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.main .center .avatar{
+    height: 80%;
+    width: 100%;
+}
+.main .center img{
+    height: 100%;
+    width: 100%;
+}
+.main .center .button{
+    height: 20%;
+}
+.main .center .button button{
+    border: none;
+    background-color: #E8EAED;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+}
+
+.main .center .bottom{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 250px;
+}
+.main .center .bottom .number{
+    height: 15%;
+}
+.main .center .bottom h4{
+    margin: 0;
+    padding: 0;
+}
+.main .center .bottom .friends{
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main .center .bottom .friend{
+    margin: 0 3px;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+}
+.main .center .bottom .friend img{
+    border-radius: 50%;
+}
+.main .center .bottom .friend p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Right side of main  */
+.right{
+    width: 52%;
+}
+.right .top{
+    height: 380px;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.right .top .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right .top .name h2, p{
+    margin: 0;
+    padding: 0; 
+}
+.right .top h4{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.right .information{
+    
+}
+.right .information table{
+    border-spacing: 1rem 1rem;
+}
+.right .media{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right .media div{
+    text-align: center;
+}
+.right .middle{
+    height: 170px;
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.right .middle h4{
+    margin: 15px;
+    margin-bottom: 20px;
+}
+.right .middle .photo{
+    width: 100%;
+} 
+.right .middle .photo img{
+    width: auto;
+    height: 102px;
+}
+.right .bottom{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    height: 250px;
+}
+.right .bottom .info{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.right .bottom .info .img{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+.right .bottom .info .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.right .bottom .info .acc_name{
+    /* height: 70px; */
+}
+.right .bottom .info .acc_name h4, p{
+    margin: 8px;
+    padding: 0;
+}
+.right .bottom .content p{
+    line-height: 25px;
+}
+
+

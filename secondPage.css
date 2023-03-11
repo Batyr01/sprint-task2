@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8EAED;
+    color: #464155;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+/* Header  */
+.shapka{
+    background-color: #4277A5;
+}
+.shapka > .container{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: white;
+}
+.shapka h1{
+    margin: 0;
+    padding: 0;
+    font-weight: 550;
+}
+.shapka .search{
+    background-color: #2C4869;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+.shapka .search img{
+    width: auto;
+    height: 80%;
+}
+.shapka .search input{
+    background-color: #2C4869;
+    border: none;
+}
+.main{
+    margin-top: 20px;
+}
+.main > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* Left side of main 464155 */
+.main .left{
+    width: 15%;
+}
+.main .left ul{
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+.main .left li{
+    margin-bottom: 20px;
+}
+.main .left li a{
+    text-decoration: none;
+    color: #464155;
+}
